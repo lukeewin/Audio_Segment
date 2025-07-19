@@ -185,6 +185,6 @@ def process_directory(input_dir, output_base_dir, video_exts=('*.mp4',)):
 
 
 if __name__ == "__main__":
-    INPUT_DIR = r"D:\Works\ASR\客家话\data\自己收集的数据集\douyin-0"
-    OUTPUT_DIR = "audio_segments"
+    INPUT_DIR = r"D:\Works\ASR\客家话\data\自己收集的数据集\youtube"
+    OUTPUT_DIR = "youtube"
     process_directory(INPUT_DIR, OUTPUT_DIR)
